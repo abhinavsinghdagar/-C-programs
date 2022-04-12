@@ -3,7 +3,6 @@
 #include<string.h>
 #include<ncurses.h>
 #include <stdlib.h>
-//thats why i wanted to test scanabhi on a diff c file which  is simpler so that i can know what went wrong
  int getabhi();
  int getabhi()
 {
@@ -108,15 +107,6 @@ void add()
     printf("\nEnter Contact no. : ");
     scanf("%ld",&c1.pn);
     fflush(stdin);// yeh coede dsai hai bas end se faltu record hata de manually
-    //isme kuch change kia tha?
-    //pakka?
-    //fir wahi use karle joh file me hai
-    //isse hata file ko hata and start frm scratch
-    //kuch aur madad chahiye toh bataio
-    //abhi ke lie tata
-    //sonali ko bol word file mail kare  u can open word file in google docs
-    //usne bas picture se copy kia hai tedious yes but not praiseworthy
-    //flowcharts should be simple and should not contain code specific language like printf %d scanf it should simply be print rehne de abb
 
     printf("Enter Sex : ");
     scanf("%s",c1.sex);//getabhi just doesnt work here dunno why.it works perfectly fine in another file but not here.reason is beyond the scope of my knowledge
